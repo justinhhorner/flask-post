@@ -1,0 +1,17 @@
+# Flask
+instance/*
+!instance/.gitignore
+.webassets-cache
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*Spy.class
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+venv/
