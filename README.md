@@ -1,4 +1,4 @@
-### Flask Post
+# Flask Post
 Learning about Flask with Flask Web Development, 2nd Edition by Miguel Grinberg.
 
 Through the later chapters of the book a social media blogging app is built, which is what the majority of this
