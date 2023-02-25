@@ -1,4 +1,5 @@
 from flask import render_template, session, redirect, url_for
+from flask_login import login_required
 from .forms import NameForm
 from . import main
 from .. import db
@@ -20,3 +21,8 @@ def index():
         form.name.data = ''
         return redirect(url_for('main.index'))
     return render_template('index.html', form=form, name=session.get('name'), known=session.get('known', False))
+
+@main.route('/secret')
+@login_required
+def secret():
+    return 'Only authenticated users are allowed!'

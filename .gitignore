@@ -17,4 +17,4 @@ pip-delete-this-directory.txt
 venv/
 
 # Database
-data.sqlite
+*.sqlite
